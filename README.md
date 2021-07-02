@@ -1,2 +1,2 @@
 # Curious-Hungry-Robot
-Simulates a robots movement 
+Simulates a robot's movement on a grid with random energy orbs placed. Every time the robot moves it consumes energy and will enter a "hungry" state if energy drops below a certain percentage, otherwise it will be "curious" and wander around the grid and try and explore as much as it can. If the robot is "hungry" it will seek out orbs to consume until it is no longer "hungry". If the robot does not have enough energy to move it will shut down and end the run. The program simulates 1000 runs and then returns statisical data based on these runs such as Min number of movements, Max number of movements, Mean, Median, and Std Dev.
